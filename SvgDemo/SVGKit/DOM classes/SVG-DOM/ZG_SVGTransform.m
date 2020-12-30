@@ -1,0 +1,17 @@
+#import "ZG_SVGTransform.h"
+
+@implementation ZG_SVGTransform
+
+@synthesize type;
+@synthesize matrix;
+@synthesize angle;
+
+
+-(void) setMatrix:(ZG_SVGMatrix*) matrix { NSAssert( FALSE, @"Not implemented yet" ); }
+-(void) setTranslate:(float) tx ty:(float) ty { NSAssert( FALSE, @"Not implemented yet" ); }
+-(void) setScale:(float) sx sy:(float) sy { NSAssert( FALSE, @"Not implemented yet" ); }
+-(void) setRotate:(float) angle cx:(float) cx cy:(float) cy { NSAssert( FALSE, @"Not implemented yet" ); }
+-(void) setSkewX:(float) angle { NSAssert( FALSE, @"Not implemented yet" ); }
+-(void) setSkewY:(float) angle { NSAssert( FALSE, @"Not implemented yet" ); }
+
+@end

@@ -14,6 +14,118 @@
 		86000B67259C646300258115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86000B66259C646300258115 /* Assets.xcassets */; };
 		86000B6A259C646300258115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86000B68259C646300258115 /* LaunchScreen.storyboard */; };
 		86000B6D259C646300258115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B6C259C646300258115 /* main.m */; };
+		86000C72259C671200258115 /* ZG_SVGCircleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B7A259C671100258115 /* ZG_SVGCircleElement.m */; };
+		86000C73259C671200258115 /* ZG_SVGGradientStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B7C259C671100258115 /* ZG_SVGGradientStop.m */; };
+		86000C74259C671200258115 /* ZG_SVGSVGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B7D259C671100258115 /* ZG_SVGSVGElement.m */; };
+		86000C75259C671200258115 /* ZG_SVGTitleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B7F259C671100258115 /* ZG_SVGTitleElement.m */; };
+		86000C76259C671200258115 /* ZG_SVGRadialGradientElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B80259C671100258115 /* ZG_SVGRadialGradientElement.m */; };
+		86000C77259C671200258115 /* ZG_SVGSwitchElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B81259C671100258115 /* ZG_SVGSwitchElement.m */; };
+		86000C78259C671200258115 /* ZG_SVGEllipseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B82259C671100258115 /* ZG_SVGEllipseElement.m */; };
+		86000C79259C671200258115 /* ZG_BaseClassForAllSVGBasicShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B83259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes.m */; };
+		86000C7A259C671200258115 /* ZG_TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B85259C671100258115 /* ZG_TinySVGTextAreaElement.m */; };
+		86000C7B259C671200258115 /* ZG_SVGTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B86259C671100258115 /* ZG_SVGTextElement.m */; };
+		86000C7C259C671200258115 /* ZG_SVGGradientElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B89259C671100258115 /* ZG_SVGGradientElement.m */; };
+		86000C7D259C671200258115 /* ZG_SVGLineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B8B259C671100258115 /* ZG_SVGLineElement.m */; };
+		86000C7E259C671200258115 /* ZG_SVGDescriptionElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B8F259C671100258115 /* ZG_SVGDescriptionElement.m */; };
+		86000C7F259C671200258115 /* ZG_SVGPolylineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B93259C671100258115 /* ZG_SVGPolylineElement.m */; };
+		86000C80259C671200258115 /* ZG_SVGGroupElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B94259C671100258115 /* ZG_SVGGroupElement.m */; };
+		86000C81259C671200258115 /* ZG_SVGLinearGradientElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B95259C671100258115 /* ZG_SVGLinearGradientElement.m */; };
+		86000C82259C671200258115 /* ZG_SVGImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B96259C671100258115 /* ZG_SVGImageElement.m */; };
+		86000C83259C671200258115 /* ZG_SVGPolygonElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B97259C671100258115 /* ZG_SVGPolygonElement.m */; };
+		86000C84259C671200258115 /* ZG_SVGRectElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000B9B259C671100258115 /* ZG_SVGRectElement.m */; };
+		86000C85259C671200258115 /* ZG_SVGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BA1259C671100258115 /* ZG_SVGElement.m */; };
+		86000C86259C671200258115 /* ZG_SVGStyleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BA2259C671100258115 /* ZG_SVGStyleElement.m */; };
+		86000C87259C671200258115 /* ZG_SVGPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BA3259C671100258115 /* ZG_SVGPathElement.m */; };
+		86000C88259C671200258115 /* ZG_EntityReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BAB259C671100258115 /* ZG_EntityReference.m */; };
+		86000C89259C671200258115 /* ZG_CSSPrimitiveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BAD259C671100258115 /* ZG_CSSPrimitiveValue.m */; };
+		86000C8A259C671200258115 /* ZG_DocumentFragment.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB1259C671100258115 /* ZG_DocumentFragment.m */; };
+		86000C8B259C671200258115 /* ZG_CSSRuleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB5259C671100258115 /* ZG_CSSRuleList.m */; };
+		86000C8C259C671200258115 /* ZG_ProcessingInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB6259C671100258115 /* ZG_ProcessingInstruction.m */; };
+		86000C8D259C671200258115 /* ZG_StyleSheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB7259C671100258115 /* ZG_StyleSheetList.m */; };
+		86000C8E259C671200258115 /* ZG_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB8259C671100258115 /* ZG_Document.m */; };
+		86000C8F259C671200258115 /* ZG_CSSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BB9259C671100258115 /* ZG_CSSValue.m */; };
+		86000C90259C671200258115 /* ZG_DOMHelperUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BBA259C671100258115 /* ZG_DOMHelperUtilities.m */; };
+		86000C91259C671200258115 /* ZG_NamedNodeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BBF259C671100258115 /* ZG_NamedNodeMap.m */; };
+		86000C92259C671200258115 /* ZG_CSSRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BC1259C671100258115 /* ZG_CSSRule.m */; };
+		86000C93259C671200258115 /* ZG_DocumentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BC3259C671100258115 /* ZG_DocumentType.m */; };
+		86000C94259C671200258115 /* ZG_Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BC5259C671100258115 /* ZG_Element.m */; };
+		86000C95259C671200258115 /* ZG_CharacterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BC6259C671100258115 /* ZG_CharacterData.m */; };
+		86000C96259C671200258115 /* ZG_Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BC8259C671100258115 /* ZG_Text.m */; };
+		86000C97259C671200258115 /* ZG_CSSStyleDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BCA259C671100258115 /* ZG_CSSStyleDeclaration.m */; };
+		86000C98259C671200258115 /* ZG_AppleSucksDOMImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BCB259C671100258115 /* ZG_AppleSucksDOMImplementation.m */; };
+		86000C99259C671200258115 /* ZG_CDATASection.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BCD259C671100258115 /* ZG_CDATASection.m */; };
+		86000C9A259C671200258115 /* ZG_CSSValueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BCF259C671100258115 /* ZG_CSSValueList.m */; };
+		86000C9B259C671200258115 /* ZG_Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BD0259C671100258115 /* ZG_Comment.m */; };
+		86000C9C259C671200258115 /* ZG_Attr.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BD4259C671100258115 /* ZG_Attr.m */; };
+		86000C9D259C671200258115 /* ZG_CSSStyleRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BD5259C671100258115 /* ZG_CSSStyleRule.m */; };
+		86000C9E259C671200258115 /* ZG_Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BD6259C671100258115 /* ZG_Node.m */; };
+		86000C9F259C671200258115 /* ZG_StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BE2259C671100258115 /* ZG_StyleSheet.m */; };
+		86000CA0259C671200258115 /* ZG_NodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BE4259C671100258115 /* ZG_NodeList.m */; };
+		86000CA1259C671200258115 /* ZG_MediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BE5259C671100258115 /* ZG_MediaList.m */; };
+		86000CA2259C671200258115 /* ZG_CSSStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BE8259C671100258115 /* ZG_CSSStyleSheet.m */; };
+		86000CA3259C671200258115 /* ZG_SVGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BED259C671100258115 /* ZG_SVGPoint.m */; };
+		86000CA4259C671200258115 /* ZG_SVGElementInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BF0259C671100258115 /* ZG_SVGElementInstance.m */; };
+		86000CA5259C671200258115 /* ZG_SVGDefsElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BF1259C671100258115 /* ZG_SVGDefsElement.m */; };
+		86000CA6259C671200258115 /* ZG_SVGTextPositioningElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BF2259C671100258115 /* ZG_SVGTextPositioningElement.m */; };
+		86000CA7259C671200258115 /* ZG_SVGMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BF3259C671100258115 /* ZG_SVGMatrix.m */; };
+		86000CA8259C671200258115 /* ZG_SVGHelperUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BFB259C671100258115 /* ZG_SVGHelperUtilities.m */; };
+		86000CA9259C671200258115 /* ZG_SVGGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000BFC259C671100258115 /* ZG_SVGGElement.m */; };
+		86000CAA259C671200258115 /* ZG_SVGClipPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C02259C671100258115 /* ZG_SVGClipPathElement.m */; };
+		86000CAB259C671200258115 /* ZG_SVGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C04259C671100258115 /* ZG_SVGDocument.m */; };
+		86000CAC259C671200258115 /* ZG_SVGUseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C05259C671100258115 /* ZG_SVGUseElement.m */; };
+		86000CAD259C671200258115 /* ZG_SVGAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C06259C671100258115 /* ZG_SVGAngle.m */; };
+		86000CAE259C671200258115 /* ZG_SVGTextContentElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C07259C671100258115 /* ZG_SVGTextContentElement.m */; };
+		86000CAF259C671200258115 /* ZG_SVGPreserveAspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C0F259C671100258115 /* ZG_SVGPreserveAspectRatio.m */; };
+		86000CB0259C671200258115 /* ZG_SVGAnimatedPreserveAspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C13259C671100258115 /* ZG_SVGAnimatedPreserveAspectRatio.m */; };
+		86000CB1259C671200258115 /* ZG_SVGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C15259C671100258115 /* ZG_SVGTransform.m */; };
+		86000CB2259C671200258115 /* ZG_SVGElementInstanceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C16259C671100258115 /* ZG_SVGElementInstanceList.m */; };
+		86000CB3259C671200258115 /* ZG_SVGLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C18259C671100258115 /* ZG_SVGLength.m */; };
+		86000CB4259C671200258115 /* ZG_SVGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C19259C671100258115 /* ZG_SVGRect.m */; };
+		86000CB5259C671200258115 /* NSData+NSInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C1D259C671100258115 /* NSData+NSInputStream.m */; };
+		86000CB6259C671200258115 /* NSCharacterSet+SVGKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C1E259C671100258115 /* NSCharacterSet+SVGKExtensions.m */; };
+		86000CB7259C671200258115 /* ZG_SVGKPointsAndPathsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C21259C671100258115 /* ZG_SVGKPointsAndPathsParser.m */; };
+		86000CB8259C671200258115 /* ZG_SVGKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C24259C671100258115 /* ZG_SVGKParser.m */; };
+		86000CB9259C671200258115 /* ZG_SVGKParserDefsAndUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C27259C671100258115 /* ZG_SVGKParserDefsAndUse.m */; };
+		86000CBA259C671200258115 /* ZG_SVGKParserStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C2B259C671100258115 /* ZG_SVGKParserStyles.m */; };
+		86000CBB259C671200258115 /* ZG_SVGKParserSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C2E259C671100258115 /* ZG_SVGKParserSVG.m */; };
+		86000CBC259C671200258115 /* ZG_SVGKParserPatternsAndGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C2F259C671100258115 /* ZG_SVGKParserPatternsAndGradients.m */; };
+		86000CBD259C671200258115 /* ZG_SVGKParserDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C31259C671100258115 /* ZG_SVGKParserDOM.m */; };
+		86000CBE259C671200258115 /* ZG_SVGKParserGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C32259C671100258115 /* ZG_SVGKParserGradient.m */; };
+		86000CBF259C671200258115 /* ZG_SVGKParseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C33259C671100258115 /* ZG_SVGKParseResult.m */; };
+		86000CC0259C671200258115 /* ZG_SVGKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C34259C671100258115 /* ZG_SVGKImage.m */; };
+		86000CC1259C671200258115 /* ZG_SVGKImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C37259C671100258115 /* ZG_SVGKImageRep.m */; };
+		86000CC2259C671200258115 /* ZG_SVGKExporterNSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C3B259C671100258115 /* ZG_SVGKExporterNSImage.m */; };
+		86000CC3259C671200258115 /* ZG_SVGKImage+CGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C3F259C671100258115 /* ZG_SVGKImage+CGContext.m */; };
+		86000CC4259C671200258115 /* ZG_SVGKExporterUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C41259C671100258115 /* ZG_SVGKExporterUIImage.m */; };
+		86000CC5259C671200258115 /* ZG_SVGKExporterNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C42259C671100258115 /* ZG_SVGKExporterNSData.m */; };
+		86000CC6259C671200258115 /* ZG_SVGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C46259C671100258115 /* ZG_SVGUtils.m */; };
+		86000CC7259C671200258115 /* ZG_SVGKInlineResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C48259C671100258115 /* ZG_SVGKInlineResource.m */; };
+		86000CC8259C671200258115 /* ZG_SVGKPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C4A259C671100258115 /* ZG_SVGKPattern.m */; };
+		86000CC9259C671200258115 /* ZG_SVGKSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C4C259C671100258115 /* ZG_SVGKSource.m */; };
+		86000CCA259C671200258115 /* ZG_CAShapeLayerWithClipRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C4F259C671100258115 /* ZG_CAShapeLayerWithClipRender.m */; };
+		86000CCB259C671200258115 /* ZG_CGPathAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C56259C671100258115 /* ZG_CGPathAdditions.m */; };
+		86000CCC259C671200258115 /* ZG_SVGKLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C58259C671100258115 /* ZG_SVGKLayer.m */; };
+		86000CCD259C671200258115 /* ZG_CALayerWithChildHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C59259C671100258115 /* ZG_CALayerWithChildHitTest.m */; };
+		86000CCE259C671200258115 /* ZG_CAShapeLayerWithHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C5A259C671100258115 /* ZG_CAShapeLayerWithHitTest.m */; };
+		86000CCF259C671200258115 /* ZG_SVGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C5B259C671100258115 /* ZG_SVGGradientLayer.m */; };
+		86000CD0259C671200258115 /* CALayer+RecursiveClone.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C5C259C671100258115 /* CALayer+RecursiveClone.m */; };
+		86000CD1259C671200258115 /* ZG_CALayerWithClipRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C5E259C671100258115 /* ZG_CALayerWithClipRender.m */; };
+		86000CD2259C671200258115 /* ZG_SVGTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C5F259C671100258115 /* ZG_SVGTextLayer.m */; };
+		86000CD3259C671200258115 /* ZG_SVGKSourceNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C65259C671100258115 /* ZG_SVGKSourceNSData.m */; };
+		86000CD4259C671200258115 /* ZG_SVGKSourceURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C66259C671100258115 /* ZG_SVGKSourceURL.m */; };
+		86000CD5259C671200258115 /* ZG_SVGKSourceLocalFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C67259C671100258115 /* ZG_SVGKSourceLocalFile.m */; };
+		86000CD6259C671200258115 /* ZG_SVGKSourceString.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C68259C671100258115 /* ZG_SVGKSourceString.m */; };
+		86000CD7259C671200258115 /* ZG_SVGKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C6A259C671100258115 /* ZG_SVGKit.m */; };
+		86000CD8259C671200258115 /* ZG_SVGKLayeredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C6E259C671100258115 /* ZG_SVGKLayeredImageView.m */; };
+		86000CD9259C671200258115 /* ZG_SVGKFastImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C6F259C671100258115 /* ZG_SVGKFastImageView.m */; };
+		86000CDA259C671200258115 /* ZG_SVGKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86000C70259C671100258115 /* ZG_SVGKImageView.m */; };
+		86000CE3259C67B100258115 /* 6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CDD259C67B100258115 /* 6.svg */; };
+		86000CE4259C67B100258115 /* 2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CDE259C67B100258115 /* 2.svg */; };
+		86000CE5259C67B100258115 /* 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CDF259C67B100258115 /* 1.svg */; };
+		86000CE6259C67B100258115 /* 4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CE0259C67B100258115 /* 4.svg */; };
+		86000CE7259C67B100258115 /* 3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CE1259C67B100258115 /* 3.svg */; };
+		86000CE8259C67B100258115 /* 5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CE2259C67B100258115 /* 5.svg */; };
+		86000CEC259C6F5300258115 /* svg-test.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CEB259C6F5300258115 /* svg-test.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +141,253 @@
 		86000B69259C646300258115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86000B6B259C646300258115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86000B6C259C646300258115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86000B77259C671100258115 /* ZG_SVGImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGImageElement.h; sourceTree = "<group>"; };
+		86000B78259C671100258115 /* ZG_SVGGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGGroupElement.h; sourceTree = "<group>"; };
+		86000B79259C671100258115 /* ZG_SVGLinearGradientElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGLinearGradientElement.h; sourceTree = "<group>"; };
+		86000B7A259C671100258115 /* ZG_SVGCircleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGCircleElement.m; sourceTree = "<group>"; };
+		86000B7B259C671100258115 /* ZG_SVGPolylineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGPolylineElement.h; sourceTree = "<group>"; };
+		86000B7C259C671100258115 /* ZG_SVGGradientStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGGradientStop.m; sourceTree = "<group>"; };
+		86000B7D259C671100258115 /* ZG_SVGSVGElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGSVGElement.m; sourceTree = "<group>"; };
+		86000B7E259C671100258115 /* ZG_SVGDescriptionElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGDescriptionElement.h; sourceTree = "<group>"; };
+		86000B7F259C671100258115 /* ZG_SVGTitleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTitleElement.m; sourceTree = "<group>"; };
+		86000B80259C671100258115 /* ZG_SVGRadialGradientElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGRadialGradientElement.m; sourceTree = "<group>"; };
+		86000B81259C671100258115 /* ZG_SVGSwitchElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGSwitchElement.m; sourceTree = "<group>"; };
+		86000B82259C671100258115 /* ZG_SVGEllipseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGEllipseElement.m; sourceTree = "<group>"; };
+		86000B83259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_BaseClassForAllSVGBasicShapes.m; sourceTree = "<group>"; };
+		86000B84259C671100258115 /* ZG_SVGRectElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGRectElement.h; sourceTree = "<group>"; };
+		86000B85259C671100258115 /* ZG_TinySVGTextAreaElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_TinySVGTextAreaElement.m; sourceTree = "<group>"; };
+		86000B86259C671100258115 /* ZG_SVGTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTextElement.m; sourceTree = "<group>"; };
+		86000B87259C671100258115 /* ZG_SVGPolygonElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGPolygonElement.h; sourceTree = "<group>"; };
+		86000B88259C671100258115 /* ZG_SVGStyleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGStyleElement.h; sourceTree = "<group>"; };
+		86000B89259C671100258115 /* ZG_SVGGradientElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGGradientElement.m; sourceTree = "<group>"; };
+		86000B8A259C671100258115 /* ZG_SVGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElement.h; sourceTree = "<group>"; };
+		86000B8B259C671100258115 /* ZG_SVGLineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGLineElement.m; sourceTree = "<group>"; };
+		86000B8C259C671100258115 /* ZG_SVGPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGPathElement.h; sourceTree = "<group>"; };
+		86000B8D259C671100258115 /* ZG_SVGStyleCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGStyleCatcher.h; sourceTree = "<group>"; };
+		86000B8E259C671100258115 /* ZG_SVGTitleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTitleElement.h; sourceTree = "<group>"; };
+		86000B8F259C671100258115 /* ZG_SVGDescriptionElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGDescriptionElement.m; sourceTree = "<group>"; };
+		86000B90259C671100258115 /* ZG_SVGSVGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGSVGElement.h; sourceTree = "<group>"; };
+		86000B91259C671100258115 /* ZG_SVGGradientStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGGradientStop.h; sourceTree = "<group>"; };
+		86000B92259C671100258115 /* ZG_SVGCircleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGCircleElement.h; sourceTree = "<group>"; };
+		86000B93259C671100258115 /* ZG_SVGPolylineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGPolylineElement.m; sourceTree = "<group>"; };
+		86000B94259C671100258115 /* ZG_SVGGroupElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGGroupElement.m; sourceTree = "<group>"; };
+		86000B95259C671100258115 /* ZG_SVGLinearGradientElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGLinearGradientElement.m; sourceTree = "<group>"; };
+		86000B96259C671100258115 /* ZG_SVGImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGImageElement.m; sourceTree = "<group>"; };
+		86000B97259C671100258115 /* ZG_SVGPolygonElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGPolygonElement.m; sourceTree = "<group>"; };
+		86000B98259C671100258115 /* ZG_SVGTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTextElement.h; sourceTree = "<group>"; };
+		86000B99259C671100258115 /* ZG_TinySVGTextAreaElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_TinySVGTextAreaElement.h; sourceTree = "<group>"; };
+		86000B9A259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_BaseClassForAllSVGBasicShapes.h; sourceTree = "<group>"; };
+		86000B9B259C671100258115 /* ZG_SVGRectElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGRectElement.m; sourceTree = "<group>"; };
+		86000B9C259C671100258115 /* ZG_SVGSwitchElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGSwitchElement.h; sourceTree = "<group>"; };
+		86000B9D259C671100258115 /* ZG_SVGEllipseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGEllipseElement.h; sourceTree = "<group>"; };
+		86000B9E259C671100258115 /* ZG_SVGRadialGradientElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGRadialGradientElement.h; sourceTree = "<group>"; };
+		86000B9F259C671100258115 /* ZG_SVGLineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGLineElement.h; sourceTree = "<group>"; };
+		86000BA0259C671100258115 /* ZG_SVGGradientElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGGradientElement.h; sourceTree = "<group>"; };
+		86000BA1259C671100258115 /* ZG_SVGElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGElement.m; sourceTree = "<group>"; };
+		86000BA2259C671100258115 /* ZG_SVGStyleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGStyleElement.m; sourceTree = "<group>"; };
+		86000BA3259C671100258115 /* ZG_SVGPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGPathElement.m; sourceTree = "<group>"; };
+		86000BA4259C671100258115 /* ZG_SVGElement_ForParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElement_ForParser.h; sourceTree = "<group>"; };
+		86000BA5259C671100258115 /* ZG_ConverterSVGToCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_ConverterSVGToCALayer.h; sourceTree = "<group>"; };
+		86000BA6259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes_ForSubclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_BaseClassForAllSVGBasicShapes_ForSubclasses.h; sourceTree = "<group>"; };
+		86000BA8259C671100258115 /* ZG_CSSPrimitiveValue_ConfigurablePixelsPerInch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSPrimitiveValue_ConfigurablePixelsPerInch.h; sourceTree = "<group>"; };
+		86000BA9259C671100258115 /* ZG_AppleSucksDOMImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_AppleSucksDOMImplementation.h; sourceTree = "<group>"; };
+		86000BAA259C671100258115 /* ZG_CSSStyleDeclaration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSStyleDeclaration.h; sourceTree = "<group>"; };
+		86000BAB259C671100258115 /* ZG_EntityReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_EntityReference.m; sourceTree = "<group>"; };
+		86000BAC259C671100258115 /* ZG_Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Text.h; sourceTree = "<group>"; };
+		86000BAD259C671100258115 /* ZG_CSSPrimitiveValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSPrimitiveValue.m; sourceTree = "<group>"; };
+		86000BAE259C671100258115 /* ZG_CharacterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CharacterData.h; sourceTree = "<group>"; };
+		86000BAF259C671100258115 /* ZG_Node+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_Node+Mutable.h"; sourceTree = "<group>"; };
+		86000BB0259C671100258115 /* ZG_Attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Attr.h; sourceTree = "<group>"; };
+		86000BB1259C671100258115 /* ZG_DocumentFragment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_DocumentFragment.m; sourceTree = "<group>"; };
+		86000BB2259C671100258115 /* ZG_Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Comment.h; sourceTree = "<group>"; };
+		86000BB3259C671100258115 /* ZG_CSSValueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSValueList.h; sourceTree = "<group>"; };
+		86000BB4259C671100258115 /* ZG_CDATASection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CDATASection.h; sourceTree = "<group>"; };
+		86000BB5259C671100258115 /* ZG_CSSRuleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSRuleList.m; sourceTree = "<group>"; };
+		86000BB6259C671100258115 /* ZG_ProcessingInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_ProcessingInstruction.m; sourceTree = "<group>"; };
+		86000BB7259C671100258115 /* ZG_StyleSheetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_StyleSheetList.m; sourceTree = "<group>"; };
+		86000BB8259C671100258115 /* ZG_Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Document.m; sourceTree = "<group>"; };
+		86000BB9259C671100258115 /* ZG_CSSValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSValue.m; sourceTree = "<group>"; };
+		86000BBA259C671100258115 /* ZG_DOMHelperUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_DOMHelperUtilities.m; sourceTree = "<group>"; };
+		86000BBB259C671100258115 /* ZG_CSSStyleRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSStyleRule.h; sourceTree = "<group>"; };
+		86000BBC259C671100258115 /* ZG_CSSRuleList+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_CSSRuleList+Mutable.h"; sourceTree = "<group>"; };
+		86000BBD259C671100258115 /* ZG_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Node.h; sourceTree = "<group>"; };
+		86000BBE259C671100258115 /* ZG_CSSStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSStyleSheet.h; sourceTree = "<group>"; };
+		86000BBF259C671100258115 /* ZG_NamedNodeMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_NamedNodeMap.m; sourceTree = "<group>"; };
+		86000BC0259C671100258115 /* ZG_MediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_MediaList.h; sourceTree = "<group>"; };
+		86000BC1259C671100258115 /* ZG_CSSRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSRule.m; sourceTree = "<group>"; };
+		86000BC2259C671100258115 /* ZG_NodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_NodeList.h; sourceTree = "<group>"; };
+		86000BC3259C671100258115 /* ZG_DocumentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_DocumentType.m; sourceTree = "<group>"; };
+		86000BC4259C671100258115 /* ZG_StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_StyleSheet.h; sourceTree = "<group>"; };
+		86000BC5259C671100258115 /* ZG_Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Element.m; sourceTree = "<group>"; };
+		86000BC6259C671100258115 /* ZG_CharacterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CharacterData.m; sourceTree = "<group>"; };
+		86000BC7259C671100258115 /* ZG_CSSPrimitiveValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSPrimitiveValue.h; sourceTree = "<group>"; };
+		86000BC8259C671100258115 /* ZG_Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Text.m; sourceTree = "<group>"; };
+		86000BC9259C671100258115 /* ZG_EntityReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_EntityReference.h; sourceTree = "<group>"; };
+		86000BCA259C671100258115 /* ZG_CSSStyleDeclaration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSStyleDeclaration.m; sourceTree = "<group>"; };
+		86000BCB259C671100258115 /* ZG_AppleSucksDOMImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_AppleSucksDOMImplementation.m; sourceTree = "<group>"; };
+		86000BCC259C671100258115 /* ZG_StyleSheetList+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_StyleSheetList+Mutable.h"; sourceTree = "<group>"; };
+		86000BCD259C671100258115 /* ZG_CDATASection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CDATASection.m; sourceTree = "<group>"; };
+		86000BCE259C671100258115 /* ZG_DOMGlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DOMGlobalSettings.h; sourceTree = "<group>"; };
+		86000BCF259C671100258115 /* ZG_CSSValueList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSValueList.m; sourceTree = "<group>"; };
+		86000BD0259C671100258115 /* ZG_Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Comment.m; sourceTree = "<group>"; };
+		86000BD1259C671100258115 /* ZG_NodeList+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_NodeList+Mutable.h"; sourceTree = "<group>"; };
+		86000BD2259C671100258115 /* ZG_CSSValue_ForSubclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSValue_ForSubclasses.h; sourceTree = "<group>"; };
+		86000BD3259C671100258115 /* ZG_DocumentFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DocumentFragment.h; sourceTree = "<group>"; };
+		86000BD4259C671100258115 /* ZG_Attr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Attr.m; sourceTree = "<group>"; };
+		86000BD5259C671100258115 /* ZG_CSSStyleRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSStyleRule.m; sourceTree = "<group>"; };
+		86000BD6259C671100258115 /* ZG_Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_Node.m; sourceTree = "<group>"; };
+		86000BD7259C671100258115 /* ZG_DOMHelperUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DOMHelperUtilities.h; sourceTree = "<group>"; };
+		86000BD8259C671100258115 /* ZG_CSSValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSValue.h; sourceTree = "<group>"; };
+		86000BD9259C671100258115 /* ZG_Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Document.h; sourceTree = "<group>"; };
+		86000BDA259C671100258115 /* ZG_ProcessingInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_ProcessingInstruction.h; sourceTree = "<group>"; };
+		86000BDB259C671100258115 /* ZG_StyleSheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_StyleSheetList.h; sourceTree = "<group>"; };
+		86000BDC259C671100258115 /* ZG_CSSRuleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSRuleList.h; sourceTree = "<group>"; };
+		86000BDD259C671100258115 /* ZG_DocumentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DocumentStyle.h; sourceTree = "<group>"; };
+		86000BDE259C671100258115 /* ZG_DocumentCSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DocumentCSS.h; sourceTree = "<group>"; };
+		86000BDF259C671100258115 /* ZG_Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_Element.h; sourceTree = "<group>"; };
+		86000BE0259C671100258115 /* ZG_Document+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_Document+Mutable.h"; sourceTree = "<group>"; };
+		86000BE1259C671100258115 /* ZG_DocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_DocumentType.h; sourceTree = "<group>"; };
+		86000BE2259C671100258115 /* ZG_StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_StyleSheet.m; sourceTree = "<group>"; };
+		86000BE3259C671100258115 /* ZG_NamedNodeMap_Iterable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_NamedNodeMap_Iterable.h; sourceTree = "<group>"; };
+		86000BE4259C671100258115 /* ZG_NodeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_NodeList.m; sourceTree = "<group>"; };
+		86000BE5259C671100258115 /* ZG_MediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_MediaList.m; sourceTree = "<group>"; };
+		86000BE6259C671100258115 /* ZG_NamedNodeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_NamedNodeMap.h; sourceTree = "<group>"; };
+		86000BE7259C671100258115 /* ZG_CSSRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CSSRule.h; sourceTree = "<group>"; };
+		86000BE8259C671100258115 /* ZG_CSSStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CSSStyleSheet.m; sourceTree = "<group>"; };
+		86000BEA259C671100258115 /* ZG_SVGUseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGUseElement.h; sourceTree = "<group>"; };
+		86000BEB259C671100258115 /* ZG_SVGDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGDocument.h; sourceTree = "<group>"; };
+		86000BEC259C671100258115 /* ZG_SVGNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGNumber.h; sourceTree = "<group>"; };
+		86000BED259C671100258115 /* ZG_SVGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGPoint.m; sourceTree = "<group>"; };
+		86000BEE259C671100258115 /* ZG_SVGTransformable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTransformable.h; sourceTree = "<group>"; };
+		86000BEF259C671100258115 /* ZG_SVGPreserveAspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGPreserveAspectRatio.h; sourceTree = "<group>"; };
+		86000BF0259C671100258115 /* ZG_SVGElementInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGElementInstance.m; sourceTree = "<group>"; };
+		86000BF1259C671100258115 /* ZG_SVGDefsElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGDefsElement.m; sourceTree = "<group>"; };
+		86000BF2259C671100258115 /* ZG_SVGTextPositioningElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTextPositioningElement.m; sourceTree = "<group>"; };
+		86000BF3259C671100258115 /* ZG_SVGMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGMatrix.m; sourceTree = "<group>"; };
+		86000BF4259C671100258115 /* ZG_SVGTextContentElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTextContentElement.h; sourceTree = "<group>"; };
+		86000BF5259C671100258115 /* ZG_SVGAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGAngle.h; sourceTree = "<group>"; };
+		86000BF6259C671100258115 /* ZG_SVGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTransform.h; sourceTree = "<group>"; };
+		86000BF7259C671100258115 /* ZG_SVGAnimatedPreserveAspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGAnimatedPreserveAspectRatio.h; sourceTree = "<group>"; };
+		86000BF8259C671100258115 /* ZG_SVGSVGElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGSVGElement_Mutable.h; sourceTree = "<group>"; };
+		86000BF9259C671100258115 /* ZG_SVGDocument_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGDocument_Mutable.h; sourceTree = "<group>"; };
+		86000BFA259C671100258115 /* ZG_SVGViewSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGViewSpec.h; sourceTree = "<group>"; };
+		86000BFB259C671100258115 /* ZG_SVGHelperUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGHelperUtilities.m; sourceTree = "<group>"; };
+		86000BFC259C671100258115 /* ZG_SVGGElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGGElement.m; sourceTree = "<group>"; };
+		86000BFD259C671100258115 /* ZG_SVGElementInstanceList_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElementInstanceList_Internal.h; sourceTree = "<group>"; };
+		86000BFE259C671100258115 /* ZG_SVGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGRect.h; sourceTree = "<group>"; };
+		86000BFF259C671100258115 /* ZG_SVGTextPositioningElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTextPositioningElement_Mutable.h; sourceTree = "<group>"; };
+		86000C00259C671100258115 /* ZG_SVGLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGLength.h; sourceTree = "<group>"; };
+		86000C01259C671100258115 /* ZG_SVGElementInstanceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElementInstanceList.h; sourceTree = "<group>"; };
+		86000C02259C671100258115 /* ZG_SVGClipPathElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGClipPathElement.m; sourceTree = "<group>"; };
+		86000C03259C671100258115 /* ZG_SVGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGPoint.h; sourceTree = "<group>"; };
+		86000C04259C671100258115 /* ZG_SVGDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGDocument.m; sourceTree = "<group>"; };
+		86000C05259C671100258115 /* ZG_SVGUseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGUseElement.m; sourceTree = "<group>"; };
+		86000C06259C671100258115 /* ZG_SVGAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGAngle.m; sourceTree = "<group>"; };
+		86000C07259C671100258115 /* ZG_SVGTextContentElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTextContentElement.m; sourceTree = "<group>"; };
+		86000C08259C671100258115 /* ZG_SVGStylable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGStylable.h; sourceTree = "<group>"; };
+		86000C09259C671100258115 /* ZG_SVGMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGMatrix.h; sourceTree = "<group>"; };
+		86000C0A259C671100258115 /* ZG_SVGUseElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGUseElement_Mutable.h; sourceTree = "<group>"; };
+		86000C0B259C671100258115 /* ZG_SVGElementInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElementInstance.h; sourceTree = "<group>"; };
+		86000C0C259C671100258115 /* ZG_SVGTextPositioningElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTextPositioningElement.h; sourceTree = "<group>"; };
+		86000C0D259C671100258115 /* ZG_SVGDefsElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGDefsElement.h; sourceTree = "<group>"; };
+		86000C0E259C671100258115 /* ZG_SVGUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGUnitTypes.h; sourceTree = "<group>"; };
+		86000C0F259C671100258115 /* ZG_SVGPreserveAspectRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGPreserveAspectRatio.m; sourceTree = "<group>"; };
+		86000C10259C671100258115 /* ZG_SVGGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGGElement.h; sourceTree = "<group>"; };
+		86000C11259C671100258115 /* ZG_SVGHelperUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGHelperUtilities.h; sourceTree = "<group>"; };
+		86000C12259C671100258115 /* ZG_SVGElementInstance_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGElementInstance_Mutable.h; sourceTree = "<group>"; };
+		86000C13259C671100258115 /* ZG_SVGAnimatedPreserveAspectRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGAnimatedPreserveAspectRatio.m; sourceTree = "<group>"; };
+		86000C14259C671100258115 /* ZG_SVGFitToViewBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGFitToViewBox.h; sourceTree = "<group>"; };
+		86000C15259C671100258115 /* ZG_SVGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTransform.m; sourceTree = "<group>"; };
+		86000C16259C671100258115 /* ZG_SVGElementInstanceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGElementInstanceList.m; sourceTree = "<group>"; };
+		86000C17259C671100258115 /* ZG_SVGClipPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGClipPathElement.h; sourceTree = "<group>"; };
+		86000C18259C671100258115 /* ZG_SVGLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGLength.m; sourceTree = "<group>"; };
+		86000C19259C671100258115 /* ZG_SVGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGRect.m; sourceTree = "<group>"; };
+		86000C1B259C671100258115 /* NSCharacterSet+SVGKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+SVGKExtensions.h"; sourceTree = "<group>"; };
+		86000C1C259C671100258115 /* NSData+NSInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSInputStream.h"; sourceTree = "<group>"; };
+		86000C1D259C671100258115 /* NSData+NSInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSInputStream.m"; sourceTree = "<group>"; };
+		86000C1E259C671100258115 /* NSCharacterSet+SVGKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+SVGKExtensions.m"; sourceTree = "<group>"; };
+		86000C20259C671100258115 /* ZG_SVGKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParser.h; sourceTree = "<group>"; };
+		86000C21259C671100258115 /* ZG_SVGKPointsAndPathsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKPointsAndPathsParser.m; sourceTree = "<group>"; };
+		86000C22259C671100258115 /* ZG_SVGKParseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParseResult.h; sourceTree = "<group>"; };
+		86000C23259C671100258115 /* ZG_SVGKParserExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserExtension.h; sourceTree = "<group>"; };
+		86000C24259C671100258115 /* ZG_SVGKParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParser.m; sourceTree = "<group>"; };
+		86000C25259C671100258115 /* ZG_SVGKPointsAndPathsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKPointsAndPathsParser.h; sourceTree = "<group>"; };
+		86000C27259C671100258115 /* ZG_SVGKParserDefsAndUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserDefsAndUse.m; sourceTree = "<group>"; };
+		86000C28259C671100258115 /* ZG_SVGKParserSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserSVG.h; sourceTree = "<group>"; };
+		86000C29259C671100258115 /* ZG_SVGKParserPatternsAndGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserPatternsAndGradients.h; sourceTree = "<group>"; };
+		86000C2A259C671100258115 /* ZG_SVGKParserDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserDOM.h; sourceTree = "<group>"; };
+		86000C2B259C671100258115 /* ZG_SVGKParserStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserStyles.m; sourceTree = "<group>"; };
+		86000C2C259C671100258115 /* ZG_SVGKParserGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserGradient.h; sourceTree = "<group>"; };
+		86000C2D259C671100258115 /* ZG_SVGKParserDefsAndUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserDefsAndUse.h; sourceTree = "<group>"; };
+		86000C2E259C671100258115 /* ZG_SVGKParserSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserSVG.m; sourceTree = "<group>"; };
+		86000C2F259C671100258115 /* ZG_SVGKParserPatternsAndGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserPatternsAndGradients.m; sourceTree = "<group>"; };
+		86000C30259C671100258115 /* ZG_SVGKParserStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKParserStyles.h; sourceTree = "<group>"; };
+		86000C31259C671100258115 /* ZG_SVGKParserDOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserDOM.m; sourceTree = "<group>"; };
+		86000C32259C671100258115 /* ZG_SVGKParserGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParserGradient.m; sourceTree = "<group>"; };
+		86000C33259C671100258115 /* ZG_SVGKParseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKParseResult.m; sourceTree = "<group>"; };
+		86000C34259C671100258115 /* ZG_SVGKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKImage.m; sourceTree = "<group>"; };
+		86000C35259C671100258115 /* ZG_SVGKSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKSource.h; sourceTree = "<group>"; };
+		86000C37259C671100258115 /* ZG_SVGKImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKImageRep.m; sourceTree = "<group>"; };
+		86000C38259C671100258115 /* ZG_SVGKImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKImageRep.h; sourceTree = "<group>"; };
+		86000C39259C671100258115 /* ZG_SVGKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKit.h; sourceTree = "<group>"; };
+		86000C3B259C671100258115 /* ZG_SVGKExporterNSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKExporterNSImage.m; sourceTree = "<group>"; };
+		86000C3C259C671100258115 /* ZG_SVGKImage+CGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZG_SVGKImage+CGContext.h"; sourceTree = "<group>"; };
+		86000C3D259C671100258115 /* ZG_SVGKExporterUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKExporterUIImage.h; sourceTree = "<group>"; };
+		86000C3E259C671100258115 /* ZG_SVGKExporterNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKExporterNSData.h; sourceTree = "<group>"; };
+		86000C3F259C671100258115 /* ZG_SVGKImage+CGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZG_SVGKImage+CGContext.m"; sourceTree = "<group>"; };
+		86000C40259C671100258115 /* ZG_SVGKExporterNSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKExporterNSImage.h; sourceTree = "<group>"; };
+		86000C41259C671100258115 /* ZG_SVGKExporterUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKExporterUIImage.m; sourceTree = "<group>"; };
+		86000C42259C671100258115 /* ZG_SVGKExporterNSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKExporterNSData.m; sourceTree = "<group>"; };
+		86000C43259C671100258115 /* ZG_SVGKDefine_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKDefine_Private.h; sourceTree = "<group>"; };
+		86000C44259C671100258115 /* ZG_SVGKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKDefine.h; sourceTree = "<group>"; };
+		86000C46259C671100258115 /* ZG_SVGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGUtils.m; sourceTree = "<group>"; };
+		86000C47259C671100258115 /* ZG_SVGKPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKPattern.h; sourceTree = "<group>"; };
+		86000C48259C671100258115 /* ZG_SVGKInlineResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKInlineResource.m; sourceTree = "<group>"; };
+		86000C49259C671100258115 /* ZG_SVGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGUtils.h; sourceTree = "<group>"; };
+		86000C4A259C671100258115 /* ZG_SVGKPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKPattern.m; sourceTree = "<group>"; };
+		86000C4B259C671100258115 /* ZG_SVGKInlineResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKInlineResource.h; sourceTree = "<group>"; };
+		86000C4C259C671100258115 /* ZG_SVGKSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKSource.m; sourceTree = "<group>"; };
+		86000C4E259C671100258115 /* ZG_CAShapeLayerWithHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CAShapeLayerWithHitTest.h; sourceTree = "<group>"; };
+		86000C4F259C671100258115 /* ZG_CAShapeLayerWithClipRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CAShapeLayerWithClipRender.m; sourceTree = "<group>"; };
+		86000C50259C671100258115 /* ZG_CALayerWithChildHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CALayerWithChildHitTest.h; sourceTree = "<group>"; };
+		86000C51259C671100258115 /* ZG_SVGKLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKLayer.h; sourceTree = "<group>"; };
+		86000C52259C671100258115 /* CALayer+RecursiveClone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RecursiveClone.h"; sourceTree = "<group>"; };
+		86000C53259C671100258115 /* ZG_SVGGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGGradientLayer.h; sourceTree = "<group>"; };
+		86000C54259C671100258115 /* ZG_CALayerWithClipRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CALayerWithClipRender.h; sourceTree = "<group>"; };
+		86000C55259C671100258115 /* ZG_SVGTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGTextLayer.h; sourceTree = "<group>"; };
+		86000C56259C671100258115 /* ZG_CGPathAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CGPathAdditions.m; sourceTree = "<group>"; };
+		86000C57259C671100258115 /* ZG_CAShapeLayerWithClipRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CAShapeLayerWithClipRender.h; sourceTree = "<group>"; };
+		86000C58259C671100258115 /* ZG_SVGKLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKLayer.m; sourceTree = "<group>"; };
+		86000C59259C671100258115 /* ZG_CALayerWithChildHitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CALayerWithChildHitTest.m; sourceTree = "<group>"; };
+		86000C5A259C671100258115 /* ZG_CAShapeLayerWithHitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CAShapeLayerWithHitTest.m; sourceTree = "<group>"; };
+		86000C5B259C671100258115 /* ZG_SVGGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGGradientLayer.m; sourceTree = "<group>"; };
+		86000C5C259C671100258115 /* CALayer+RecursiveClone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+RecursiveClone.m"; sourceTree = "<group>"; };
+		86000C5D259C671100258115 /* ZG_CGPathAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_CGPathAdditions.h; sourceTree = "<group>"; };
+		86000C5E259C671100258115 /* ZG_CALayerWithClipRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_CALayerWithClipRender.m; sourceTree = "<group>"; };
+		86000C5F259C671100258115 /* ZG_SVGTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGTextLayer.m; sourceTree = "<group>"; };
+		86000C60259C671100258115 /* ZG_SVGKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKImage.h; sourceTree = "<group>"; };
+		86000C62259C671100258115 /* ZG_SVGKSourceURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKSourceURL.h; sourceTree = "<group>"; };
+		86000C63259C671100258115 /* ZG_SVGKSourceString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKSourceString.h; sourceTree = "<group>"; };
+		86000C64259C671100258115 /* ZG_SVGKSourceLocalFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKSourceLocalFile.h; sourceTree = "<group>"; };
+		86000C65259C671100258115 /* ZG_SVGKSourceNSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKSourceNSData.m; sourceTree = "<group>"; };
+		86000C66259C671100258115 /* ZG_SVGKSourceURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKSourceURL.m; sourceTree = "<group>"; };
+		86000C67259C671100258115 /* ZG_SVGKSourceLocalFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKSourceLocalFile.m; sourceTree = "<group>"; };
+		86000C68259C671100258115 /* ZG_SVGKSourceString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKSourceString.m; sourceTree = "<group>"; };
+		86000C69259C671100258115 /* ZG_SVGKSourceNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKSourceNSData.h; sourceTree = "<group>"; };
+		86000C6A259C671100258115 /* ZG_SVGKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKit.m; sourceTree = "<group>"; };
+		86000C6C259C671100258115 /* ZG_SVGKFastImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKFastImageView.h; sourceTree = "<group>"; };
+		86000C6D259C671100258115 /* ZG_SVGKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKImageView.h; sourceTree = "<group>"; };
+		86000C6E259C671100258115 /* ZG_SVGKLayeredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKLayeredImageView.m; sourceTree = "<group>"; };
+		86000C6F259C671100258115 /* ZG_SVGKFastImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKFastImageView.m; sourceTree = "<group>"; };
+		86000C70259C671100258115 /* ZG_SVGKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZG_SVGKImageView.m; sourceTree = "<group>"; };
+		86000C71259C671100258115 /* ZG_SVGKLayeredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZG_SVGKLayeredImageView.h; sourceTree = "<group>"; };
+		86000CDD259C67B100258115 /* 6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6.svg; sourceTree = "<group>"; };
+		86000CDE259C67B100258115 /* 2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.svg; sourceTree = "<group>"; };
+		86000CDF259C67B100258115 /* 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.svg; sourceTree = "<group>"; };
+		86000CE0259C67B100258115 /* 4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 4.svg; sourceTree = "<group>"; };
+		86000CE1259C67B100258115 /* 3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.svg; sourceTree = "<group>"; };
+		86000CE2259C67B100258115 /* 5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5.svg; sourceTree = "<group>"; };
+		86000CEB259C6F5300258115 /* svg-test.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "svg-test.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +404,8 @@
 		86000B4E259C646200258115 = {
 			isa = PBXGroup;
 			children = (
-				86000B59259C646200258115 /* SvgDemo */,
 				86000B58259C646200258115 /* Products */,
+				86000B59259C646200258115 /* SvgDemo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +420,8 @@
 		86000B59259C646200258115 /* SvgDemo */ = {
 			isa = PBXGroup;
 			children = (
+				86000CDC259C678D00258115 /* Resources */,
+				86000B74259C671100258115 /* SVGKit */,
 				86000B5A259C646200258115 /* AppDelegate.h */,
 				86000B5B259C646200258115 /* AppDelegate.m */,
 				86000B5D259C646200258115 /* SceneDelegate.h */,
@@ -74,6 +435,371 @@
 				86000B6C259C646300258115 /* main.m */,
 			);
 			path = SvgDemo;
+			sourceTree = "<group>";
+		};
+		86000B74259C671100258115 /* SVGKit */ = {
+			isa = PBXGroup;
+			children = (
+				86000C36259C671100258115 /* AppKit additions */,
+				86000B75259C671100258115 /* DOM classes */,
+				86000C3A259C671100258115 /* Exporters */,
+				86000C1A259C671100258115 /* Foundation additions */,
+				86000C6B259C671100258115 /* ImageViews */,
+				86000C1F259C671100258115 /* Parsers */,
+				86000C4D259C671100258115 /* QuartzCore additions */,
+				86000C61259C671100258115 /* Sources */,
+				86000C45259C671100258115 /* Utils */,
+				86000C43259C671100258115 /* ZG_SVGKDefine_Private.h */,
+				86000C44259C671100258115 /* ZG_SVGKDefine.h */,
+				86000C60259C671100258115 /* ZG_SVGKImage.h */,
+				86000C34259C671100258115 /* ZG_SVGKImage.m */,
+				86000C39259C671100258115 /* ZG_SVGKit.h */,
+				86000C6A259C671100258115 /* ZG_SVGKit.m */,
+				86000C35259C671100258115 /* ZG_SVGKSource.h */,
+				86000C4C259C671100258115 /* ZG_SVGKSource.m */,
+			);
+			path = SVGKit;
+			sourceTree = "<group>";
+		};
+		86000B75259C671100258115 /* DOM classes */ = {
+			isa = PBXGroup;
+			children = (
+				86000B76259C671100258115 /* Unported or Partial DOM */,
+				86000BA7259C671100258115 /* Core DOM */,
+				86000BE9259C671100258115 /* SVG-DOM */,
+			);
+			path = "DOM classes";
+			sourceTree = "<group>";
+		};
+		86000B76259C671100258115 /* Unported or Partial DOM */ = {
+			isa = PBXGroup;
+			children = (
+				86000BA6259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes_ForSubclasses.h */,
+				86000B9A259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes.h */,
+				86000B83259C671100258115 /* ZG_BaseClassForAllSVGBasicShapes.m */,
+				86000BA5259C671100258115 /* ZG_ConverterSVGToCALayer.h */,
+				86000B92259C671100258115 /* ZG_SVGCircleElement.h */,
+				86000B7A259C671100258115 /* ZG_SVGCircleElement.m */,
+				86000B7E259C671100258115 /* ZG_SVGDescriptionElement.h */,
+				86000B8F259C671100258115 /* ZG_SVGDescriptionElement.m */,
+				86000BA4259C671100258115 /* ZG_SVGElement_ForParser.h */,
+				86000B8A259C671100258115 /* ZG_SVGElement.h */,
+				86000BA1259C671100258115 /* ZG_SVGElement.m */,
+				86000B9D259C671100258115 /* ZG_SVGEllipseElement.h */,
+				86000B82259C671100258115 /* ZG_SVGEllipseElement.m */,
+				86000BA0259C671100258115 /* ZG_SVGGradientElement.h */,
+				86000B89259C671100258115 /* ZG_SVGGradientElement.m */,
+				86000B91259C671100258115 /* ZG_SVGGradientStop.h */,
+				86000B7C259C671100258115 /* ZG_SVGGradientStop.m */,
+				86000B78259C671100258115 /* ZG_SVGGroupElement.h */,
+				86000B94259C671100258115 /* ZG_SVGGroupElement.m */,
+				86000B77259C671100258115 /* ZG_SVGImageElement.h */,
+				86000B96259C671100258115 /* ZG_SVGImageElement.m */,
+				86000B79259C671100258115 /* ZG_SVGLinearGradientElement.h */,
+				86000B95259C671100258115 /* ZG_SVGLinearGradientElement.m */,
+				86000B9F259C671100258115 /* ZG_SVGLineElement.h */,
+				86000B8B259C671100258115 /* ZG_SVGLineElement.m */,
+				86000B8C259C671100258115 /* ZG_SVGPathElement.h */,
+				86000BA3259C671100258115 /* ZG_SVGPathElement.m */,
+				86000B87259C671100258115 /* ZG_SVGPolygonElement.h */,
+				86000B97259C671100258115 /* ZG_SVGPolygonElement.m */,
+				86000B7B259C671100258115 /* ZG_SVGPolylineElement.h */,
+				86000B93259C671100258115 /* ZG_SVGPolylineElement.m */,
+				86000B9E259C671100258115 /* ZG_SVGRadialGradientElement.h */,
+				86000B80259C671100258115 /* ZG_SVGRadialGradientElement.m */,
+				86000B84259C671100258115 /* ZG_SVGRectElement.h */,
+				86000B9B259C671100258115 /* ZG_SVGRectElement.m */,
+				86000B8D259C671100258115 /* ZG_SVGStyleCatcher.h */,
+				86000B88259C671100258115 /* ZG_SVGStyleElement.h */,
+				86000BA2259C671100258115 /* ZG_SVGStyleElement.m */,
+				86000B90259C671100258115 /* ZG_SVGSVGElement.h */,
+				86000B7D259C671100258115 /* ZG_SVGSVGElement.m */,
+				86000B9C259C671100258115 /* ZG_SVGSwitchElement.h */,
+				86000B81259C671100258115 /* ZG_SVGSwitchElement.m */,
+				86000B98259C671100258115 /* ZG_SVGTextElement.h */,
+				86000B86259C671100258115 /* ZG_SVGTextElement.m */,
+				86000B8E259C671100258115 /* ZG_SVGTitleElement.h */,
+				86000B7F259C671100258115 /* ZG_SVGTitleElement.m */,
+				86000B99259C671100258115 /* ZG_TinySVGTextAreaElement.h */,
+				86000B85259C671100258115 /* ZG_TinySVGTextAreaElement.m */,
+			);
+			path = "Unported or Partial DOM";
+			sourceTree = "<group>";
+		};
+		86000BA7259C671100258115 /* Core DOM */ = {
+			isa = PBXGroup;
+			children = (
+				86000BA8259C671100258115 /* ZG_CSSPrimitiveValue_ConfigurablePixelsPerInch.h */,
+				86000BA9259C671100258115 /* ZG_AppleSucksDOMImplementation.h */,
+				86000BAA259C671100258115 /* ZG_CSSStyleDeclaration.h */,
+				86000BAB259C671100258115 /* ZG_EntityReference.m */,
+				86000BAC259C671100258115 /* ZG_Text.h */,
+				86000BAD259C671100258115 /* ZG_CSSPrimitiveValue.m */,
+				86000BAE259C671100258115 /* ZG_CharacterData.h */,
+				86000BAF259C671100258115 /* ZG_Node+Mutable.h */,
+				86000BB0259C671100258115 /* ZG_Attr.h */,
+				86000BB1259C671100258115 /* ZG_DocumentFragment.m */,
+				86000BB2259C671100258115 /* ZG_Comment.h */,
+				86000BB3259C671100258115 /* ZG_CSSValueList.h */,
+				86000BB4259C671100258115 /* ZG_CDATASection.h */,
+				86000BB5259C671100258115 /* ZG_CSSRuleList.m */,
+				86000BB6259C671100258115 /* ZG_ProcessingInstruction.m */,
+				86000BB7259C671100258115 /* ZG_StyleSheetList.m */,
+				86000BB8259C671100258115 /* ZG_Document.m */,
+				86000BB9259C671100258115 /* ZG_CSSValue.m */,
+				86000BBA259C671100258115 /* ZG_DOMHelperUtilities.m */,
+				86000BBB259C671100258115 /* ZG_CSSStyleRule.h */,
+				86000BBC259C671100258115 /* ZG_CSSRuleList+Mutable.h */,
+				86000BBD259C671100258115 /* ZG_Node.h */,
+				86000BBE259C671100258115 /* ZG_CSSStyleSheet.h */,
+				86000BBF259C671100258115 /* ZG_NamedNodeMap.m */,
+				86000BC0259C671100258115 /* ZG_MediaList.h */,
+				86000BC1259C671100258115 /* ZG_CSSRule.m */,
+				86000BC2259C671100258115 /* ZG_NodeList.h */,
+				86000BC3259C671100258115 /* ZG_DocumentType.m */,
+				86000BC4259C671100258115 /* ZG_StyleSheet.h */,
+				86000BC5259C671100258115 /* ZG_Element.m */,
+				86000BC6259C671100258115 /* ZG_CharacterData.m */,
+				86000BC7259C671100258115 /* ZG_CSSPrimitiveValue.h */,
+				86000BC8259C671100258115 /* ZG_Text.m */,
+				86000BC9259C671100258115 /* ZG_EntityReference.h */,
+				86000BCA259C671100258115 /* ZG_CSSStyleDeclaration.m */,
+				86000BCB259C671100258115 /* ZG_AppleSucksDOMImplementation.m */,
+				86000BCC259C671100258115 /* ZG_StyleSheetList+Mutable.h */,
+				86000BCD259C671100258115 /* ZG_CDATASection.m */,
+				86000BCE259C671100258115 /* ZG_DOMGlobalSettings.h */,
+				86000BCF259C671100258115 /* ZG_CSSValueList.m */,
+				86000BD0259C671100258115 /* ZG_Comment.m */,
+				86000BD1259C671100258115 /* ZG_NodeList+Mutable.h */,
+				86000BD2259C671100258115 /* ZG_CSSValue_ForSubclasses.h */,
+				86000BD3259C671100258115 /* ZG_DocumentFragment.h */,
+				86000BD4259C671100258115 /* ZG_Attr.m */,
+				86000BD5259C671100258115 /* ZG_CSSStyleRule.m */,
+				86000BD6259C671100258115 /* ZG_Node.m */,
+				86000BD7259C671100258115 /* ZG_DOMHelperUtilities.h */,
+				86000BD8259C671100258115 /* ZG_CSSValue.h */,
+				86000BD9259C671100258115 /* ZG_Document.h */,
+				86000BDA259C671100258115 /* ZG_ProcessingInstruction.h */,
+				86000BDB259C671100258115 /* ZG_StyleSheetList.h */,
+				86000BDC259C671100258115 /* ZG_CSSRuleList.h */,
+				86000BDD259C671100258115 /* ZG_DocumentStyle.h */,
+				86000BDE259C671100258115 /* ZG_DocumentCSS.h */,
+				86000BDF259C671100258115 /* ZG_Element.h */,
+				86000BE0259C671100258115 /* ZG_Document+Mutable.h */,
+				86000BE1259C671100258115 /* ZG_DocumentType.h */,
+				86000BE2259C671100258115 /* ZG_StyleSheet.m */,
+				86000BE3259C671100258115 /* ZG_NamedNodeMap_Iterable.h */,
+				86000BE4259C671100258115 /* ZG_NodeList.m */,
+				86000BE5259C671100258115 /* ZG_MediaList.m */,
+				86000BE6259C671100258115 /* ZG_NamedNodeMap.h */,
+				86000BE7259C671100258115 /* ZG_CSSRule.h */,
+				86000BE8259C671100258115 /* ZG_CSSStyleSheet.m */,
+			);
+			path = "Core DOM";
+			sourceTree = "<group>";
+		};
+		86000BE9259C671100258115 /* SVG-DOM */ = {
+			isa = PBXGroup;
+			children = (
+				86000BEA259C671100258115 /* ZG_SVGUseElement.h */,
+				86000BEB259C671100258115 /* ZG_SVGDocument.h */,
+				86000BEC259C671100258115 /* ZG_SVGNumber.h */,
+				86000BED259C671100258115 /* ZG_SVGPoint.m */,
+				86000BEE259C671100258115 /* ZG_SVGTransformable.h */,
+				86000BEF259C671100258115 /* ZG_SVGPreserveAspectRatio.h */,
+				86000BF0259C671100258115 /* ZG_SVGElementInstance.m */,
+				86000BF1259C671100258115 /* ZG_SVGDefsElement.m */,
+				86000BF2259C671100258115 /* ZG_SVGTextPositioningElement.m */,
+				86000BF3259C671100258115 /* ZG_SVGMatrix.m */,
+				86000BF4259C671100258115 /* ZG_SVGTextContentElement.h */,
+				86000BF5259C671100258115 /* ZG_SVGAngle.h */,
+				86000BF6259C671100258115 /* ZG_SVGTransform.h */,
+				86000BF7259C671100258115 /* ZG_SVGAnimatedPreserveAspectRatio.h */,
+				86000BF8259C671100258115 /* ZG_SVGSVGElement_Mutable.h */,
+				86000BF9259C671100258115 /* ZG_SVGDocument_Mutable.h */,
+				86000BFA259C671100258115 /* ZG_SVGViewSpec.h */,
+				86000BFB259C671100258115 /* ZG_SVGHelperUtilities.m */,
+				86000BFC259C671100258115 /* ZG_SVGGElement.m */,
+				86000BFD259C671100258115 /* ZG_SVGElementInstanceList_Internal.h */,
+				86000BFE259C671100258115 /* ZG_SVGRect.h */,
+				86000BFF259C671100258115 /* ZG_SVGTextPositioningElement_Mutable.h */,
+				86000C00259C671100258115 /* ZG_SVGLength.h */,
+				86000C01259C671100258115 /* ZG_SVGElementInstanceList.h */,
+				86000C02259C671100258115 /* ZG_SVGClipPathElement.m */,
+				86000C03259C671100258115 /* ZG_SVGPoint.h */,
+				86000C04259C671100258115 /* ZG_SVGDocument.m */,
+				86000C05259C671100258115 /* ZG_SVGUseElement.m */,
+				86000C06259C671100258115 /* ZG_SVGAngle.m */,
+				86000C07259C671100258115 /* ZG_SVGTextContentElement.m */,
+				86000C08259C671100258115 /* ZG_SVGStylable.h */,
+				86000C09259C671100258115 /* ZG_SVGMatrix.h */,
+				86000C0A259C671100258115 /* ZG_SVGUseElement_Mutable.h */,
+				86000C0B259C671100258115 /* ZG_SVGElementInstance.h */,
+				86000C0C259C671100258115 /* ZG_SVGTextPositioningElement.h */,
+				86000C0D259C671100258115 /* ZG_SVGDefsElement.h */,
+				86000C0E259C671100258115 /* ZG_SVGUnitTypes.h */,
+				86000C0F259C671100258115 /* ZG_SVGPreserveAspectRatio.m */,
+				86000C10259C671100258115 /* ZG_SVGGElement.h */,
+				86000C11259C671100258115 /* ZG_SVGHelperUtilities.h */,
+				86000C12259C671100258115 /* ZG_SVGElementInstance_Mutable.h */,
+				86000C13259C671100258115 /* ZG_SVGAnimatedPreserveAspectRatio.m */,
+				86000C14259C671100258115 /* ZG_SVGFitToViewBox.h */,
+				86000C15259C671100258115 /* ZG_SVGTransform.m */,
+				86000C16259C671100258115 /* ZG_SVGElementInstanceList.m */,
+				86000C17259C671100258115 /* ZG_SVGClipPathElement.h */,
+				86000C18259C671100258115 /* ZG_SVGLength.m */,
+				86000C19259C671100258115 /* ZG_SVGRect.m */,
+			);
+			path = "SVG-DOM";
+			sourceTree = "<group>";
+		};
+		86000C1A259C671100258115 /* Foundation additions */ = {
+			isa = PBXGroup;
+			children = (
+				86000C1B259C671100258115 /* NSCharacterSet+SVGKExtensions.h */,
+				86000C1C259C671100258115 /* NSData+NSInputStream.h */,
+				86000C1D259C671100258115 /* NSData+NSInputStream.m */,
+				86000C1E259C671100258115 /* NSCharacterSet+SVGKExtensions.m */,
+			);
+			path = "Foundation additions";
+			sourceTree = "<group>";
+		};
+		86000C1F259C671100258115 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				86000C20259C671100258115 /* ZG_SVGKParser.h */,
+				86000C21259C671100258115 /* ZG_SVGKPointsAndPathsParser.m */,
+				86000C22259C671100258115 /* ZG_SVGKParseResult.h */,
+				86000C23259C671100258115 /* ZG_SVGKParserExtension.h */,
+				86000C24259C671100258115 /* ZG_SVGKParser.m */,
+				86000C25259C671100258115 /* ZG_SVGKPointsAndPathsParser.h */,
+				86000C26259C671100258115 /* Parser Extensions */,
+				86000C33259C671100258115 /* ZG_SVGKParseResult.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		86000C26259C671100258115 /* Parser Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				86000C2D259C671100258115 /* ZG_SVGKParserDefsAndUse.h */,
+				86000C27259C671100258115 /* ZG_SVGKParserDefsAndUse.m */,
+				86000C2A259C671100258115 /* ZG_SVGKParserDOM.h */,
+				86000C31259C671100258115 /* ZG_SVGKParserDOM.m */,
+				86000C2C259C671100258115 /* ZG_SVGKParserGradient.h */,
+				86000C32259C671100258115 /* ZG_SVGKParserGradient.m */,
+				86000C29259C671100258115 /* ZG_SVGKParserPatternsAndGradients.h */,
+				86000C2F259C671100258115 /* ZG_SVGKParserPatternsAndGradients.m */,
+				86000C30259C671100258115 /* ZG_SVGKParserStyles.h */,
+				86000C2B259C671100258115 /* ZG_SVGKParserStyles.m */,
+				86000C28259C671100258115 /* ZG_SVGKParserSVG.h */,
+				86000C2E259C671100258115 /* ZG_SVGKParserSVG.m */,
+			);
+			path = "Parser Extensions";
+			sourceTree = "<group>";
+		};
+		86000C36259C671100258115 /* AppKit additions */ = {
+			isa = PBXGroup;
+			children = (
+				86000C37259C671100258115 /* ZG_SVGKImageRep.m */,
+				86000C38259C671100258115 /* ZG_SVGKImageRep.h */,
+			);
+			path = "AppKit additions";
+			sourceTree = "<group>";
+		};
+		86000C3A259C671100258115 /* Exporters */ = {
+			isa = PBXGroup;
+			children = (
+				86000C3B259C671100258115 /* ZG_SVGKExporterNSImage.m */,
+				86000C3C259C671100258115 /* ZG_SVGKImage+CGContext.h */,
+				86000C3D259C671100258115 /* ZG_SVGKExporterUIImage.h */,
+				86000C3E259C671100258115 /* ZG_SVGKExporterNSData.h */,
+				86000C3F259C671100258115 /* ZG_SVGKImage+CGContext.m */,
+				86000C40259C671100258115 /* ZG_SVGKExporterNSImage.h */,
+				86000C41259C671100258115 /* ZG_SVGKExporterUIImage.m */,
+				86000C42259C671100258115 /* ZG_SVGKExporterNSData.m */,
+			);
+			path = Exporters;
+			sourceTree = "<group>";
+		};
+		86000C45259C671100258115 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86000C46259C671100258115 /* ZG_SVGUtils.m */,
+				86000C47259C671100258115 /* ZG_SVGKPattern.h */,
+				86000C48259C671100258115 /* ZG_SVGKInlineResource.m */,
+				86000C49259C671100258115 /* ZG_SVGUtils.h */,
+				86000C4A259C671100258115 /* ZG_SVGKPattern.m */,
+				86000C4B259C671100258115 /* ZG_SVGKInlineResource.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86000C4D259C671100258115 /* QuartzCore additions */ = {
+			isa = PBXGroup;
+			children = (
+				86000C4E259C671100258115 /* ZG_CAShapeLayerWithHitTest.h */,
+				86000C4F259C671100258115 /* ZG_CAShapeLayerWithClipRender.m */,
+				86000C50259C671100258115 /* ZG_CALayerWithChildHitTest.h */,
+				86000C51259C671100258115 /* ZG_SVGKLayer.h */,
+				86000C52259C671100258115 /* CALayer+RecursiveClone.h */,
+				86000C53259C671100258115 /* ZG_SVGGradientLayer.h */,
+				86000C54259C671100258115 /* ZG_CALayerWithClipRender.h */,
+				86000C55259C671100258115 /* ZG_SVGTextLayer.h */,
+				86000C56259C671100258115 /* ZG_CGPathAdditions.m */,
+				86000C57259C671100258115 /* ZG_CAShapeLayerWithClipRender.h */,
+				86000C58259C671100258115 /* ZG_SVGKLayer.m */,
+				86000C59259C671100258115 /* ZG_CALayerWithChildHitTest.m */,
+				86000C5A259C671100258115 /* ZG_CAShapeLayerWithHitTest.m */,
+				86000C5B259C671100258115 /* ZG_SVGGradientLayer.m */,
+				86000C5C259C671100258115 /* CALayer+RecursiveClone.m */,
+				86000C5D259C671100258115 /* ZG_CGPathAdditions.h */,
+				86000C5E259C671100258115 /* ZG_CALayerWithClipRender.m */,
+				86000C5F259C671100258115 /* ZG_SVGTextLayer.m */,
+			);
+			path = "QuartzCore additions";
+			sourceTree = "<group>";
+		};
+		86000C61259C671100258115 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86000C62259C671100258115 /* ZG_SVGKSourceURL.h */,
+				86000C63259C671100258115 /* ZG_SVGKSourceString.h */,
+				86000C64259C671100258115 /* ZG_SVGKSourceLocalFile.h */,
+				86000C65259C671100258115 /* ZG_SVGKSourceNSData.m */,
+				86000C66259C671100258115 /* ZG_SVGKSourceURL.m */,
+				86000C67259C671100258115 /* ZG_SVGKSourceLocalFile.m */,
+				86000C68259C671100258115 /* ZG_SVGKSourceString.m */,
+				86000C69259C671100258115 /* ZG_SVGKSourceNSData.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		86000C6B259C671100258115 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				86000C6C259C671100258115 /* ZG_SVGKFastImageView.h */,
+				86000C6D259C671100258115 /* ZG_SVGKImageView.h */,
+				86000C6E259C671100258115 /* ZG_SVGKLayeredImageView.m */,
+				86000C6F259C671100258115 /* ZG_SVGKFastImageView.m */,
+				86000C70259C671100258115 /* ZG_SVGKImageView.m */,
+				86000C71259C671100258115 /* ZG_SVGKLayeredImageView.h */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		86000CDC259C678D00258115 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86000CDF259C67B100258115 /* 1.svg */,
+				86000CDE259C67B100258115 /* 2.svg */,
+				86000CE1259C67B100258115 /* 3.svg */,
+				86000CE0259C67B100258115 /* 4.svg */,
+				86000CE2259C67B100258115 /* 5.svg */,
+				86000CDD259C67B100258115 /* 6.svg */,
+				86000CEB259C6F5300258115 /* svg-test.svg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +858,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86000CE5259C67B100258115 /* 1.svg in Resources */,
+				86000CEC259C6F5300258115 /* svg-test.svg in Resources */,
 				86000B6A259C646300258115 /* LaunchScreen.storyboard in Resources */,
+				86000CE6259C67B100258115 /* 4.svg in Resources */,
+				86000CE8259C67B100258115 /* 5.svg in Resources */,
+				86000CE4259C67B100258115 /* 2.svg in Resources */,
+				86000CE3259C67B100258115 /* 6.svg in Resources */,
 				86000B67259C646300258115 /* Assets.xcassets in Resources */,
+				86000CE7259C67B100258115 /* 3.svg in Resources */,
 				86000B65259C646200258115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +878,115 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86000CBA259C671200258115 /* ZG_SVGKParserStyles.m in Sources */,
+				86000C7D259C671200258115 /* ZG_SVGLineElement.m in Sources */,
+				86000C91259C671200258115 /* ZG_NamedNodeMap.m in Sources */,
+				86000CBE259C671200258115 /* ZG_SVGKParserGradient.m in Sources */,
+				86000CD7259C671200258115 /* ZG_SVGKit.m in Sources */,
+				86000C77259C671200258115 /* ZG_SVGSwitchElement.m in Sources */,
+				86000C7C259C671200258115 /* ZG_SVGGradientElement.m in Sources */,
+				86000CA9259C671200258115 /* ZG_SVGGElement.m in Sources */,
+				86000C8E259C671200258115 /* ZG_Document.m in Sources */,
+				86000CAC259C671200258115 /* ZG_SVGUseElement.m in Sources */,
+				86000CA6259C671200258115 /* ZG_SVGTextPositioningElement.m in Sources */,
+				86000CA7259C671200258115 /* ZG_SVGMatrix.m in Sources */,
+				86000C81259C671200258115 /* ZG_SVGLinearGradientElement.m in Sources */,
+				86000C89259C671200258115 /* ZG_CSSPrimitiveValue.m in Sources */,
+				86000C85259C671200258115 /* ZG_SVGElement.m in Sources */,
+				86000C76259C671200258115 /* ZG_SVGRadialGradientElement.m in Sources */,
+				86000C83259C671200258115 /* ZG_SVGPolygonElement.m in Sources */,
+				86000CA3259C671200258115 /* ZG_SVGPoint.m in Sources */,
+				86000C9F259C671200258115 /* ZG_StyleSheet.m in Sources */,
+				86000C87259C671200258115 /* ZG_SVGPathElement.m in Sources */,
+				86000C98259C671200258115 /* ZG_AppleSucksDOMImplementation.m in Sources */,
+				86000CCC259C671200258115 /* ZG_SVGKLayer.m in Sources */,
+				86000CBB259C671200258115 /* ZG_SVGKParserSVG.m in Sources */,
+				86000CA1259C671200258115 /* ZG_MediaList.m in Sources */,
+				86000CCF259C671200258115 /* ZG_SVGGradientLayer.m in Sources */,
+				86000C9A259C671200258115 /* ZG_CSSValueList.m in Sources */,
+				86000CCB259C671200258115 /* ZG_CGPathAdditions.m in Sources */,
+				86000CD5259C671200258115 /* ZG_SVGKSourceLocalFile.m in Sources */,
+				86000C90259C671200258115 /* ZG_DOMHelperUtilities.m in Sources */,
+				86000CC4259C671200258115 /* ZG_SVGKExporterUIImage.m in Sources */,
+				86000CC5259C671200258115 /* ZG_SVGKExporterNSData.m in Sources */,
+				86000CD0259C671200258115 /* CALayer+RecursiveClone.m in Sources */,
+				86000CAB259C671200258115 /* ZG_SVGDocument.m in Sources */,
+				86000CCD259C671200258115 /* ZG_CALayerWithChildHitTest.m in Sources */,
+				86000C9D259C671200258115 /* ZG_CSSStyleRule.m in Sources */,
+				86000CA0259C671200258115 /* ZG_NodeList.m in Sources */,
 				86000B62259C646200258115 /* ViewController.m in Sources */,
+				86000CC7259C671200258115 /* ZG_SVGKInlineResource.m in Sources */,
+				86000C97259C671200258115 /* ZG_CSSStyleDeclaration.m in Sources */,
+				86000C78259C671200258115 /* ZG_SVGEllipseElement.m in Sources */,
+				86000C86259C671200258115 /* ZG_SVGStyleElement.m in Sources */,
 				86000B5C259C646200258115 /* AppDelegate.m in Sources */,
+				86000CB3259C671200258115 /* ZG_SVGLength.m in Sources */,
 				86000B6D259C646300258115 /* main.m in Sources */,
+				86000CD9259C671200258115 /* ZG_SVGKFastImageView.m in Sources */,
+				86000CD1259C671200258115 /* ZG_CALayerWithClipRender.m in Sources */,
+				86000C93259C671200258115 /* ZG_DocumentType.m in Sources */,
+				86000CCE259C671200258115 /* ZG_CAShapeLayerWithHitTest.m in Sources */,
+				86000CD8259C671200258115 /* ZG_SVGKLayeredImageView.m in Sources */,
+				86000CB6259C671200258115 /* NSCharacterSet+SVGKExtensions.m in Sources */,
+				86000CBC259C671200258115 /* ZG_SVGKParserPatternsAndGradients.m in Sources */,
+				86000CB2259C671200258115 /* ZG_SVGElementInstanceList.m in Sources */,
+				86000C8A259C671200258115 /* ZG_DocumentFragment.m in Sources */,
+				86000CC6259C671200258115 /* ZG_SVGUtils.m in Sources */,
+				86000C84259C671200258115 /* ZG_SVGRectElement.m in Sources */,
+				86000C75259C671200258115 /* ZG_SVGTitleElement.m in Sources */,
+				86000C9B259C671200258115 /* ZG_Comment.m in Sources */,
+				86000C74259C671200258115 /* ZG_SVGSVGElement.m in Sources */,
+				86000CC2259C671200258115 /* ZG_SVGKExporterNSImage.m in Sources */,
+				86000CD3259C671200258115 /* ZG_SVGKSourceNSData.m in Sources */,
+				86000CD2259C671200258115 /* ZG_SVGTextLayer.m in Sources */,
+				86000C79259C671200258115 /* ZG_BaseClassForAllSVGBasicShapes.m in Sources */,
+				86000C7E259C671200258115 /* ZG_SVGDescriptionElement.m in Sources */,
+				86000CDA259C671200258115 /* ZG_SVGKImageView.m in Sources */,
+				86000C99259C671200258115 /* ZG_CDATASection.m in Sources */,
+				86000CB9259C671200258115 /* ZG_SVGKParserDefsAndUse.m in Sources */,
+				86000CC0259C671200258115 /* ZG_SVGKImage.m in Sources */,
+				86000CB7259C671200258115 /* ZG_SVGKPointsAndPathsParser.m in Sources */,
+				86000CC1259C671200258115 /* ZG_SVGKImageRep.m in Sources */,
+				86000C8D259C671200258115 /* ZG_StyleSheetList.m in Sources */,
+				86000C7F259C671200258115 /* ZG_SVGPolylineElement.m in Sources */,
+				86000CCA259C671200258115 /* ZG_CAShapeLayerWithClipRender.m in Sources */,
+				86000C7B259C671200258115 /* ZG_SVGTextElement.m in Sources */,
+				86000CC9259C671200258115 /* ZG_SVGKSource.m in Sources */,
+				86000CAE259C671200258115 /* ZG_SVGTextContentElement.m in Sources */,
+				86000CAF259C671200258115 /* ZG_SVGPreserveAspectRatio.m in Sources */,
+				86000C73259C671200258115 /* ZG_SVGGradientStop.m in Sources */,
+				86000C95259C671200258115 /* ZG_CharacterData.m in Sources */,
+				86000C7A259C671200258115 /* ZG_TinySVGTextAreaElement.m in Sources */,
+				86000CA4259C671200258115 /* ZG_SVGElementInstance.m in Sources */,
+				86000C9C259C671200258115 /* ZG_Attr.m in Sources */,
+				86000CD6259C671200258115 /* ZG_SVGKSourceString.m in Sources */,
+				86000C8F259C671200258115 /* ZG_CSSValue.m in Sources */,
+				86000C82259C671200258115 /* ZG_SVGImageElement.m in Sources */,
+				86000C96259C671200258115 /* ZG_Text.m in Sources */,
+				86000CAA259C671200258115 /* ZG_SVGClipPathElement.m in Sources */,
+				86000CC8259C671200258115 /* ZG_SVGKPattern.m in Sources */,
+				86000CA2259C671200258115 /* ZG_CSSStyleSheet.m in Sources */,
+				86000C80259C671200258115 /* ZG_SVGGroupElement.m in Sources */,
+				86000CBF259C671200258115 /* ZG_SVGKParseResult.m in Sources */,
+				86000C72259C671200258115 /* ZG_SVGCircleElement.m in Sources */,
+				86000CC3259C671200258115 /* ZG_SVGKImage+CGContext.m in Sources */,
+				86000CB8259C671200258115 /* ZG_SVGKParser.m in Sources */,
+				86000CB4259C671200258115 /* ZG_SVGRect.m in Sources */,
 				86000B5F259C646200258115 /* SceneDelegate.m in Sources */,
+				86000CB5259C671200258115 /* NSData+NSInputStream.m in Sources */,
+				86000C8C259C671200258115 /* ZG_ProcessingInstruction.m in Sources */,
+				86000CBD259C671200258115 /* ZG_SVGKParserDOM.m in Sources */,
+				86000CD4259C671200258115 /* ZG_SVGKSourceURL.m in Sources */,
+				86000CB0259C671200258115 /* ZG_SVGAnimatedPreserveAspectRatio.m in Sources */,
+				86000CA8259C671200258115 /* ZG_SVGHelperUtilities.m in Sources */,
+				86000CB1259C671200258115 /* ZG_SVGTransform.m in Sources */,
+				86000CA5259C671200258115 /* ZG_SVGDefsElement.m in Sources */,
+				86000C94259C671200258115 /* ZG_Element.m in Sources */,
+				86000C9E259C671200258115 /* ZG_Node.m in Sources */,
+				86000C8B259C671200258115 /* ZG_CSSRuleList.m in Sources */,
+				86000C92259C671200258115 /* ZG_CSSRule.m in Sources */,
+				86000C88259C671200258115 /* ZG_EntityReference.m in Sources */,
+				86000CAD259C671200258115 /* ZG_SVGAngle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
