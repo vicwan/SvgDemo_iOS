@@ -10,15 +10,10 @@
 
 #import "ZG_SVGKParserSVG.h"
 
-@class ZG_SVGKParserGradient;
 #import "ZG_SVGKParserGradient.h"
-@class ZG_SVGKParserPatternsAndGradients;
 #import "ZG_SVGKParserPatternsAndGradients.h"
-@class ZG_SVGKParserStyles;
 #import "ZG_SVGKParserStyles.h"
-@class ZG_SVGKParserDefsAndUse;
 #import "ZG_SVGKParserDefsAndUse.h"
-@class ZG_SVGKParserDOM;
 #import "ZG_SVGKParserDOM.h"
 
 #import "ZG_SVGDocument_Mutable.h" // so we can modify the SVGDocuments we're parsing

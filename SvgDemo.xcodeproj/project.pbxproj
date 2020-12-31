@@ -126,6 +126,7 @@
 		86000CE7259C67B100258115 /* 3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CE1259C67B100258115 /* 3.svg */; };
 		86000CE8259C67B100258115 /* 5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CE2259C67B100258115 /* 5.svg */; };
 		86000CEC259C6F5300258115 /* svg-test.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86000CEB259C6F5300258115 /* svg-test.svg */; };
+		86588B4E259DB39D002F8ED6 /* svg-test-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 86588B4D259DB39D002F8ED6 /* svg-test-right.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -388,6 +389,7 @@
 		86000CE1259C67B100258115 /* 3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.svg; sourceTree = "<group>"; };
 		86000CE2259C67B100258115 /* 5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5.svg; sourceTree = "<group>"; };
 		86000CEB259C6F5300258115 /* svg-test.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "svg-test.svg"; sourceTree = "<group>"; };
+		86588B4D259DB39D002F8ED6 /* svg-test-right.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "svg-test-right.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,71 +531,71 @@
 		86000BA7259C671100258115 /* Core DOM */ = {
 			isa = PBXGroup;
 			children = (
-				86000BA8259C671100258115 /* ZG_CSSPrimitiveValue_ConfigurablePixelsPerInch.h */,
 				86000BA9259C671100258115 /* ZG_AppleSucksDOMImplementation.h */,
-				86000BAA259C671100258115 /* ZG_CSSStyleDeclaration.h */,
-				86000BAB259C671100258115 /* ZG_EntityReference.m */,
-				86000BAC259C671100258115 /* ZG_Text.h */,
-				86000BAD259C671100258115 /* ZG_CSSPrimitiveValue.m */,
-				86000BAE259C671100258115 /* ZG_CharacterData.h */,
-				86000BAF259C671100258115 /* ZG_Node+Mutable.h */,
-				86000BB0259C671100258115 /* ZG_Attr.h */,
-				86000BB1259C671100258115 /* ZG_DocumentFragment.m */,
-				86000BB2259C671100258115 /* ZG_Comment.h */,
-				86000BB3259C671100258115 /* ZG_CSSValueList.h */,
-				86000BB4259C671100258115 /* ZG_CDATASection.h */,
-				86000BB5259C671100258115 /* ZG_CSSRuleList.m */,
-				86000BB6259C671100258115 /* ZG_ProcessingInstruction.m */,
-				86000BB7259C671100258115 /* ZG_StyleSheetList.m */,
-				86000BB8259C671100258115 /* ZG_Document.m */,
-				86000BB9259C671100258115 /* ZG_CSSValue.m */,
-				86000BBA259C671100258115 /* ZG_DOMHelperUtilities.m */,
-				86000BBB259C671100258115 /* ZG_CSSStyleRule.h */,
-				86000BBC259C671100258115 /* ZG_CSSRuleList+Mutable.h */,
-				86000BBD259C671100258115 /* ZG_Node.h */,
-				86000BBE259C671100258115 /* ZG_CSSStyleSheet.h */,
-				86000BBF259C671100258115 /* ZG_NamedNodeMap.m */,
-				86000BC0259C671100258115 /* ZG_MediaList.h */,
-				86000BC1259C671100258115 /* ZG_CSSRule.m */,
-				86000BC2259C671100258115 /* ZG_NodeList.h */,
-				86000BC3259C671100258115 /* ZG_DocumentType.m */,
-				86000BC4259C671100258115 /* ZG_StyleSheet.h */,
-				86000BC5259C671100258115 /* ZG_Element.m */,
-				86000BC6259C671100258115 /* ZG_CharacterData.m */,
-				86000BC7259C671100258115 /* ZG_CSSPrimitiveValue.h */,
-				86000BC8259C671100258115 /* ZG_Text.m */,
-				86000BC9259C671100258115 /* ZG_EntityReference.h */,
-				86000BCA259C671100258115 /* ZG_CSSStyleDeclaration.m */,
 				86000BCB259C671100258115 /* ZG_AppleSucksDOMImplementation.m */,
-				86000BCC259C671100258115 /* ZG_StyleSheetList+Mutable.h */,
-				86000BCD259C671100258115 /* ZG_CDATASection.m */,
-				86000BCE259C671100258115 /* ZG_DOMGlobalSettings.h */,
-				86000BCF259C671100258115 /* ZG_CSSValueList.m */,
-				86000BD0259C671100258115 /* ZG_Comment.m */,
-				86000BD1259C671100258115 /* ZG_NodeList+Mutable.h */,
-				86000BD2259C671100258115 /* ZG_CSSValue_ForSubclasses.h */,
-				86000BD3259C671100258115 /* ZG_DocumentFragment.h */,
+				86000BB0259C671100258115 /* ZG_Attr.h */,
 				86000BD4259C671100258115 /* ZG_Attr.m */,
-				86000BD5259C671100258115 /* ZG_CSSStyleRule.m */,
-				86000BD6259C671100258115 /* ZG_Node.m */,
-				86000BD7259C671100258115 /* ZG_DOMHelperUtilities.h */,
-				86000BD8259C671100258115 /* ZG_CSSValue.h */,
-				86000BD9259C671100258115 /* ZG_Document.h */,
-				86000BDA259C671100258115 /* ZG_ProcessingInstruction.h */,
-				86000BDB259C671100258115 /* ZG_StyleSheetList.h */,
-				86000BDC259C671100258115 /* ZG_CSSRuleList.h */,
-				86000BDD259C671100258115 /* ZG_DocumentStyle.h */,
-				86000BDE259C671100258115 /* ZG_DocumentCSS.h */,
-				86000BDF259C671100258115 /* ZG_Element.h */,
-				86000BE0259C671100258115 /* ZG_Document+Mutable.h */,
-				86000BE1259C671100258115 /* ZG_DocumentType.h */,
-				86000BE2259C671100258115 /* ZG_StyleSheet.m */,
-				86000BE3259C671100258115 /* ZG_NamedNodeMap_Iterable.h */,
-				86000BE4259C671100258115 /* ZG_NodeList.m */,
-				86000BE5259C671100258115 /* ZG_MediaList.m */,
-				86000BE6259C671100258115 /* ZG_NamedNodeMap.h */,
+				86000BB4259C671100258115 /* ZG_CDATASection.h */,
+				86000BCD259C671100258115 /* ZG_CDATASection.m */,
+				86000BAE259C671100258115 /* ZG_CharacterData.h */,
+				86000BC6259C671100258115 /* ZG_CharacterData.m */,
+				86000BB2259C671100258115 /* ZG_Comment.h */,
+				86000BD0259C671100258115 /* ZG_Comment.m */,
+				86000BA8259C671100258115 /* ZG_CSSPrimitiveValue_ConfigurablePixelsPerInch.h */,
+				86000BC7259C671100258115 /* ZG_CSSPrimitiveValue.h */,
+				86000BAD259C671100258115 /* ZG_CSSPrimitiveValue.m */,
 				86000BE7259C671100258115 /* ZG_CSSRule.h */,
+				86000BC1259C671100258115 /* ZG_CSSRule.m */,
+				86000BDC259C671100258115 /* ZG_CSSRuleList.h */,
+				86000BB5259C671100258115 /* ZG_CSSRuleList.m */,
+				86000BBC259C671100258115 /* ZG_CSSRuleList+Mutable.h */,
+				86000BAA259C671100258115 /* ZG_CSSStyleDeclaration.h */,
+				86000BCA259C671100258115 /* ZG_CSSStyleDeclaration.m */,
+				86000BBB259C671100258115 /* ZG_CSSStyleRule.h */,
+				86000BD5259C671100258115 /* ZG_CSSStyleRule.m */,
+				86000BBE259C671100258115 /* ZG_CSSStyleSheet.h */,
 				86000BE8259C671100258115 /* ZG_CSSStyleSheet.m */,
+				86000BD2259C671100258115 /* ZG_CSSValue_ForSubclasses.h */,
+				86000BD8259C671100258115 /* ZG_CSSValue.h */,
+				86000BB9259C671100258115 /* ZG_CSSValue.m */,
+				86000BB3259C671100258115 /* ZG_CSSValueList.h */,
+				86000BCF259C671100258115 /* ZG_CSSValueList.m */,
+				86000BD9259C671100258115 /* ZG_Document.h */,
+				86000BB8259C671100258115 /* ZG_Document.m */,
+				86000BE0259C671100258115 /* ZG_Document+Mutable.h */,
+				86000BDE259C671100258115 /* ZG_DocumentCSS.h */,
+				86000BD3259C671100258115 /* ZG_DocumentFragment.h */,
+				86000BB1259C671100258115 /* ZG_DocumentFragment.m */,
+				86000BDD259C671100258115 /* ZG_DocumentStyle.h */,
+				86000BE1259C671100258115 /* ZG_DocumentType.h */,
+				86000BC3259C671100258115 /* ZG_DocumentType.m */,
+				86000BCE259C671100258115 /* ZG_DOMGlobalSettings.h */,
+				86000BD7259C671100258115 /* ZG_DOMHelperUtilities.h */,
+				86000BBA259C671100258115 /* ZG_DOMHelperUtilities.m */,
+				86000BDF259C671100258115 /* ZG_Element.h */,
+				86000BC5259C671100258115 /* ZG_Element.m */,
+				86000BC9259C671100258115 /* ZG_EntityReference.h */,
+				86000BAB259C671100258115 /* ZG_EntityReference.m */,
+				86000BC0259C671100258115 /* ZG_MediaList.h */,
+				86000BE5259C671100258115 /* ZG_MediaList.m */,
+				86000BE3259C671100258115 /* ZG_NamedNodeMap_Iterable.h */,
+				86000BE6259C671100258115 /* ZG_NamedNodeMap.h */,
+				86000BBF259C671100258115 /* ZG_NamedNodeMap.m */,
+				86000BBD259C671100258115 /* ZG_Node.h */,
+				86000BD6259C671100258115 /* ZG_Node.m */,
+				86000BAF259C671100258115 /* ZG_Node+Mutable.h */,
+				86000BC2259C671100258115 /* ZG_NodeList.h */,
+				86000BE4259C671100258115 /* ZG_NodeList.m */,
+				86000BD1259C671100258115 /* ZG_NodeList+Mutable.h */,
+				86000BDA259C671100258115 /* ZG_ProcessingInstruction.h */,
+				86000BB6259C671100258115 /* ZG_ProcessingInstruction.m */,
+				86000BC4259C671100258115 /* ZG_StyleSheet.h */,
+				86000BE2259C671100258115 /* ZG_StyleSheet.m */,
+				86000BDB259C671100258115 /* ZG_StyleSheetList.h */,
+				86000BB7259C671100258115 /* ZG_StyleSheetList.m */,
+				86000BCC259C671100258115 /* ZG_StyleSheetList+Mutable.h */,
+				86000BAC259C671100258115 /* ZG_Text.h */,
+				86000BC8259C671100258115 /* ZG_Text.m */,
 			);
 			path = "Core DOM";
 			sourceTree = "<group>";
@@ -667,14 +669,14 @@
 		86000C1F259C671100258115 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
-				86000C20259C671100258115 /* ZG_SVGKParser.h */,
-				86000C21259C671100258115 /* ZG_SVGKPointsAndPathsParser.m */,
-				86000C22259C671100258115 /* ZG_SVGKParseResult.h */,
-				86000C23259C671100258115 /* ZG_SVGKParserExtension.h */,
-				86000C24259C671100258115 /* ZG_SVGKParser.m */,
-				86000C25259C671100258115 /* ZG_SVGKPointsAndPathsParser.h */,
 				86000C26259C671100258115 /* Parser Extensions */,
+				86000C20259C671100258115 /* ZG_SVGKParser.h */,
+				86000C24259C671100258115 /* ZG_SVGKParser.m */,
+				86000C22259C671100258115 /* ZG_SVGKParseResult.h */,
 				86000C33259C671100258115 /* ZG_SVGKParseResult.m */,
+				86000C23259C671100258115 /* ZG_SVGKParserExtension.h */,
+				86000C25259C671100258115 /* ZG_SVGKPointsAndPathsParser.h */,
+				86000C21259C671100258115 /* ZG_SVGKPointsAndPathsParser.m */,
 			);
 			path = Parsers;
 			sourceTree = "<group>";
@@ -798,6 +800,7 @@
 				86000CE2259C67B100258115 /* 5.svg */,
 				86000CDD259C67B100258115 /* 6.svg */,
 				86000CEB259C6F5300258115 /* svg-test.svg */,
+				86588B4D259DB39D002F8ED6 /* svg-test-right.svg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -867,6 +870,7 @@
 				86000CE3259C67B100258115 /* 6.svg in Resources */,
 				86000B67259C646300258115 /* Assets.xcassets in Resources */,
 				86000CE7259C67B100258115 /* 3.svg in Resources */,
+				86588B4E259DB39D002F8ED6 /* svg-test-right.svg in Resources */,
 				86000B65259C646200258115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

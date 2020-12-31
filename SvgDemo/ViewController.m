@@ -31,6 +31,7 @@
     ZG_SVGKImage *svg = [ZG_SVGKImage imageNamed:@"svg-test.svg"];
     UIImage *image = svg.UIImage;
     self.imageView.image = image;
+    NSLog(@"Parse svg complete.");
     NSLog(@"%@", svg.parseErrorsAndWarnings);
 }
 
